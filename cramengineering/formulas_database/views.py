@@ -7,4 +7,4 @@ from django.http import HttpResponse
 def home(requests):
     context = {}
 
-    return render(requests, "formulas_database/formulas-home.html", context)
+    return render(requests, "formulas-database/home.html", context)
